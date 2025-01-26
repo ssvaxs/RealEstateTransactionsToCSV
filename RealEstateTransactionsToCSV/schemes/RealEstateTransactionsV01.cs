@@ -5802,7 +5802,7 @@ namespace RealEstateTransactionsToCSV
         [System.ComponentModel.DescriptionAttribute("Цена, определенная договором")]
         [System.ComponentModel.DataAnnotations.RequiredAttribute(AllowEmptyStrings=true)]
         [System.Xml.Serialization.XmlElementAttribute("objects_price")]
-        public decimal ObjectsPrice { get; set; }
+        public string ObjectsPrice { get; set; }
         
         /// <summary>
         /// <para>Объекты недвижимости</para>

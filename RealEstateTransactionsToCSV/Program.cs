@@ -112,7 +112,7 @@ namespace RealEstateTransactionsToCSV
                     $"{item.RegistrationDate};" +
                     $"{item.DocumentDate};" +
                     $"{item.Subject.Replace("\n", " ").Replace(";", ".")};" +
-                    $"{item.ObjectsPrice};" +
+                    $"{item.ObjectsPrice.Replace(".", ",")};" +
                     $"{item.Objects.Object.CadastralNumber}"
                 );
             }
